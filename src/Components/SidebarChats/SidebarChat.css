@@ -1,0 +1,29 @@
+.sidebarChat {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.sidebarChat:hover {
+    background-color: #F5F6F6;
+    cursor: pointer;
+}
+
+.side__detail p{
+    font-size: medium;
+}
+
+.side__detail {
+    margin-left: 20px;
+}
+
+.side__detail p:first-child {
+    color: black;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.side__detail p:last-child {
+    color: #677681;
+    font-size: 14px;
+}

@@ -1,0 +1,92 @@
+.whatsapp__container {
+    width: 95vw;
+    height: 95vh;
+    background-color: white;
+    display: flex;
+}
+
+.container__persons {
+    flex: 0.3;
+    border-right: 1px solid #E8ECEF;
+    overflow-y: scroll;
+}
+
+.container__persons::-webkit-scrollbar {
+    display: none;
+}
+
+.container__chat {
+    flex: 0.7;
+}
+
+.persons__header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #F0F2F5;
+}
+
+.persons__header__avatar {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+}
+
+.persons__header__avatar > p {
+    margin-left: 10px;
+}
+
+.persons__header__icons {
+    flex: 0.5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E8ECEF;
+}
+
+.search input {
+    width: 85%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    background-color: #F0F2F5;
+    height: 35px;
+    font-size: medium;
+    outline: none;
+}
+
+.search div {
+    background-color: #F0F2F5;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 40px;
+}
+
+.logout__button {
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 0;
+    background-color: white;
+    position: absolute;
+    text-align: left;
+    height: 35px;
+    width: 90px;
+    left: 33%;
+    z-index: 30;
+    top: 80px;
+}
+
+.more_button {
+    position: relative;
+}
+

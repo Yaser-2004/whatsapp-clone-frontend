@@ -1,0 +1,41 @@
+.register form {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #21c500;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+}
+
+.register {
+    text-align: center;
+}
+
+.register a {
+    text-decoration: none;
+    color: #21c500;
+}
+
+.register form input {
+    margin: 15px;
+    height: 35px;
+    width: 400px;
+    outline: none;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+    padding-left: 15px;
+    background-color: #ecf3fc;
+} 
+
+.register form button {
+    width: 412px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #21c500;
+    color: white;
+    font-size: medium;
+}
