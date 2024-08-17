@@ -13,6 +13,7 @@ function Login() {
 
     const {authUser, setAuthUser} = useAuthContext();
     const url = process.env.REACT_APP_BASE_URL;
+    axios.defaults.withCredentials = true;
 
     async function loginUser(e) {
         e.preventDefault();
